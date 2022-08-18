@@ -1,0 +1,65 @@
+/* Make background color black */
+body {
+  background-color: black;
+}
+/* Change color of header and font type*/
+h1{
+  color: rgb(193, 90, 237);
+  font-family: Cinzel;
+}
+/* makes font white, change font type and size */
+.name {
+ color: white;
+ font-family: Fauna One;
+ display: block;
+ margin-left: 500px;
+ margin-right: auto;
+}
+/* colors the raiting system and gives position */
+.rating {
+ color: white;
+ font-family: Fauna One;
+ display: block;
+ margin-left: 500px;
+ margin-right: auto;
+}
+/* adds background color to comment box and gives size*/
+.comment {
+ color: white;
+ font-family: Fauna One;
+ display: block;
+ margin-left: 500px;
+ margin-right: 500px;
+ background-color:rgb(51, 42, 125);
+}
+/* gives color of button */
+button{
+  color: purple;
+  display: block;
+  margin-left: 875px;
+  margin-right: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(26, 17, 79);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-family: Fauna One;
+}
+
+li a:hover {
+  background-color: rgb(166, 119, 157);
+}

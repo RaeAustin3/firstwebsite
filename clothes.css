@@ -1,0 +1,126 @@
+/* Make background color black */
+body {
+  background-color: black;
+}
+/* color of heading and changes font */
+h1{
+  color: rgb(193, 90, 237);
+  font-family: Cinzel;
+}
+/* adds place holder image and gives sizes */
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+/* adds place holder image and gives sizes */
+.soon1 {
+ height: 250px;
+ width: 250px;
+ display: block;
+ margin-left: 30px;
+ margin-right: auto;
+}
+.pickSize{
+  margin-left: 20px;
+  margin-right: auto;
+}
+p{
+  display:inline-block;
+  color: white;
+  font-family: Fauna One;
+  margin-left: 30px;
+  margin-right: auto;
+}
+/* adds place holder image and gives sizes */
+.soon2 {
+ height: 250px;
+ width: 250px;
+ display: block;
+ margin-right: auto;
+}
+p{
+  display:inline-block;
+  color: white;
+  font-family: Fauna One;
+  margin-left: 30px;
+  margin-right: auto;
+}
+/* adds place holder image and gives sizes */
+.soon3 {
+ height: 250px;
+ width: 250px;
+ display: block;
+ margin-right: auto;
+}
+p{
+  display:inline-block;
+  color: white;
+  font-family: Fauna One;
+  margin-left: 30px;
+  margin-right: auto;
+}
+/* adds place holder image and gives sizes */
+.soon4 {
+ height: 250px;
+ width: 250px;
+ display: block;
+ margin-right: auto;
+}
+p{
+  display:inline-block;
+  color: white;
+  font-family: Fauna One;
+  margin-left: 30px;
+  margin-right: auto;
+}
+/* adds place holder image and gives sizes */
+.soon5 {
+ height: 250px;
+ width: 250px;
+ display: block;
+ margin-right: auto;
+}
+p{
+  display:inline-block;
+  color: white;
+  font-family: Fauna One;
+  margin-left: 30px;
+  margin-right: auto;
+}
+/* adds place holder image and gives sizes */
+.soon6 {
+ height: 250px;
+ width: 250px;
+ display: block;
+ margin-right: auto;
+}
+p{
+  display:inline-block;
+  color: white;
+  font-family: Fauna One;
+  margin-left: 30px;
+  margin-right: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(26, 17, 79);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-family: Fauna One;
+}
+li a:hover {
+  background-color: rgb(166, 119, 157);
+}

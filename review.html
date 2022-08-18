@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tell Us What You Love</title>
+    <!--links for css file and google fonts-->
+    <meta charset="UTF-8">
+    <meta name="description" content="ProjectWebsite">
+    <link rel="stylesheet" type="text/css" href="review.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fauna+One">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="review.js"></script>
+  <style>
+  h1 {
+  text-align: center;
+  }
+  </style>
+  </head>
+  <body>
+    <!--Navigation bar in an un ordered list, made in a horizontal fashion for easy access-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="clothes.html">Clothes</a></li>
+        <li><a href="review.html">Tell Us What You Love</a></li>
+      </ul>
+    </nav>
+    <main>
+        <h1>Tell Us What You Love</h1>
+        <!--adds field to input name-->
+        <form method="post" action="review.html">
+            <div class = "name">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+            </div>
+            <!--adds field to pick a rating between 1-5-->
+            <div class = "rating">
+               <label for="rating">Rating:</label>
+               <input type="number" id="rating" name="rating" min="1" max="5" value="5" required>
+            </div>
+            <!--adds field to leave a comment-->
+            <div class = "comment">
+               <label for="Comment">Comment:</label>
+               <textarea id="Comment" name="Comment" rows="5" cols="50" required></textarea>
+            </div>
+            <!--submit button to submit user input-->
+          <button>Submit</button>
+          </form>
+    </main>
+    <!--footer of the page for validation-->
+    <footer>
+      <a href="https://validator.w3.org/check?uri=referer"
+      referrerpolicy="unsafe-url"> Validate HTML </a> <br>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer"
+      referrerpolicy="unsafe-url"> Validate CSS </a>
+    </footer>
+  </body>
+</html>

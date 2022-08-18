@@ -1,0 +1,52 @@
+/* Make background color black */
+body {
+  background-color: black;
+}
+/* changes color and font of heading */
+h1{
+  color: rgb(193, 90, 237);
+  font-family: Cinzel;
+}
+/* changes color and font of second heading */
+h2{
+  color: rgb(193, 90, 237);
+  font-family: Cinzel;
+}
+p{
+  color: white;
+  font-family: Fauna One;
+  text-align: center;
+}
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+/* changes size of sword pic */
+.sword {
+ height: 100px;
+ width: 700px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(26, 17, 79);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-family: Fauna One;
+}
